@@ -15,6 +15,7 @@ Install and configures MySQL on RedHat/CentOS and Debian/Ubuntu.
 
 ## Role Variables
 All the variable that can be overridden are stored in [vars/main.yml](vars/main.yml) or [defaults/main.yml](defaults/main.yml) file as shown in the table below:
+
 | Name                                    | Default Value   | Description                               |
 |---------------------------------------- |---------------- |-----------------------------------------  |
 | `mysql_user_home`                       | /root           | Default User directory                    |
