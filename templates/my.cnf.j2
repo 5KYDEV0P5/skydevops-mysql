@@ -36,7 +36,7 @@ slow_query_log_file = {{ mysql_slow_query_log_file }}
 long_query_time = {{ mysql_slow_query_time }}
 {% endif %}
 
-{% if mysql_replication_master %}
+{# {% if mysql_replication_master %}
 # Replication
 server-id = {{ mysql_server_id }}
 
@@ -61,7 +61,7 @@ read_only
 relay-log = relay-bin
 relay-log-index = relay-bin.index
 {% endif %}
-{% endif %}
+{% endif %} #}
 
 # Disabling symbolic-links is recommended to prevent assorted security risks
 symbolic-links = 0
