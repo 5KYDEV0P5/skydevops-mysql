@@ -15,4 +15,4 @@ galaxy_info:
       - trusty
       - xenial
   galaxy_tags: [MySQL]
-dependencies: [5KYDEV0P5.common]
+dependencies: []
