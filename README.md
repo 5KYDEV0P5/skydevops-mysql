@@ -72,9 +72,6 @@ All the variable that can be overridden are stored in [vars/main.yml](vars/main.
 | `mysql_max_binlog_size`                 | 100M            | Bin Log size                              |
 | `mysql_binlog_format`                   | ROW             | Log Format                                |
 | `mysql_expire_logs_days`                | 10              | Log expire days                           |
-| `mysql_replication_role`                | ''              | Replication role                          |
-| `mysql_replication_master`              | ''              | mysql replication master                  |
-| `mysql_replication_user`                | []              | mysql replication user name               |
 
 ## Dependencies
 
